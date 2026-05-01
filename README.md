@@ -1,5 +1,27 @@
 # 💫 About Me:
-I'm a Software Engineer and MS CS student specializing in building scalable backend systems, distributed data pipelines, and cloud-native applications.  <br>I focus on designing fault-tolerant architectures, improving system performance, and developing intelligent solutions using OCR, NLP, and automation.  <br>My experience spans AWS, GCP, Node.js, FastAPI, Docker, Kubernetes, and modern full-stack development.
+Full Stack Software Engineer and MS Computer Science student at the University of Oklahoma, building scalable cloud-native systems and LLM-powered applications. I work across the stack — developing responsive frontends with React/Next.js, engineering high-performance backend services with Node.js and FastAPI, and deploying containerized microservices on GCP and AWS. My recent work includes RAG pipelines, vector search systems (FAISS/Chroma), Text-to-SQL engines, and ML pipelines for biomedical classification and anomaly detection. Passionate about combining strong software engineering fundamentals with intelligent AI systems to build production-ready, impactful software.
+
+Currently exploring: agentic AI systems, distributed inference, and large-scale system design.
+
+Education
+Master of Science in Computer Science
+University of Oklahoma
+
+Norman, OK
+
+Aug 2024 – May 2026
+
+GPA: 3.78 / 4.0
+
+Bachelor of Technology in Information Technology
+CVR College of Engineering
+
+Hyderabad, India
+
+Aug 2020 – May 2024
+
+GPA: 9.35 / 10.0
+
 
 
 ## 🌐 Socials:
