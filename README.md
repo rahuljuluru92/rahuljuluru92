@@ -1,83 +1,98 @@
-# 💫 About Me:
-Full Stack Software Engineer and MS Computer Science student at the University of Oklahoma, building scalable cloud-native systems and LLM-powered applications. I work across the stack — developing responsive frontends with React/Next.js, engineering high-performance backend services with Node.js and FastAPI, and deploying containerized microservices on GCP and AWS. My recent work includes RAG pipelines, vector search systems (FAISS/Chroma), Text-to-SQL engines, and ML pipelines for biomedical classification and anomaly detection. Passionate about combining strong software engineering fundamentals with intelligent AI systems to build production-ready, impactful software.
+# Rahul Juluru
+
+**Software Engineer · AI/ML Systems · MS Computer Science Researcher @ University of Oklahoma**
+
+3.5+ years of industry experience across enterprise, startup, and research engineering.
+Building production-grade systems at the intersection of distributed infrastructure and intelligent AI.
+
+> Actively seeking full-time SWE / AI Engineering roles · Available May 2026
+
+---
+
+## About
+
+I'm a graduate researcher and full stack engineer with hands-on experience shipping systems at Salesforce, a Series-A startup, and an active university research lab.
+
+My work spans the full stack — React/Next.js frontends, Node.js/FastAPI backends, containerized microservices on GCP and AWS — with a growing specialization in LLM-powered applications: RAG pipelines, vector search (FAISS/Chroma), Text-to-SQL engines, and ML pipelines for biomedical classification and anomaly detection.
 
 Currently exploring: agentic AI systems, distributed inference, and large-scale system design.
 
-Education
-Master of Science in Computer Science
-University of Oklahoma
+---
 
-Norman, OK
+## What I'm Currently Working On
 
-Aug 2024 – May 2026
-
-GPA: 3.78 / 4.0
-
-Bachelor of Technology in Information Technology
-CVR College of Engineering
-
-Hyderabad, India
-
-Aug 2020 – May 2024
-
-GPA: 9.35 / 10.0
-
-
-
-## 🌐 Socials:
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/rahul-juluru/) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:rahuljuluru92@gmail.com) 
-
-# 💻 Tech Stack:
-## 🚀 Core Languages
-![Python](https://img.shields.io/badge/Python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
-![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+- Distributed systems design — rate limiting, consensus, fault-tolerant pipelines
+- Agentic LLM workflows and multi-step reasoning systems
+- ML infrastructure for research-grade biomedical data at OU
 
 ---
 
-## 🤖 AI / LLM Systems
-![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi)
-![RAG](https://img.shields.io/badge/RAG-0A0A0A?style=for-the-badge)
-![FAISS](https://img.shields.io/badge/FAISS-1E90FF?style=for-the-badge)
-![Chroma](https://img.shields.io/badge/Chroma-7B68EE?style=for-the-badge)
-![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
+## Publication
+
+**Prediction of Graft-Versus-Host Disease Severity Using Optical Biopsy**
+*SPIE Digital Library — Proceedings of SPIE, Vol. 13843 · March 2026*
+
+Applied PCA, PLS-DA, SVM-DA, and Multiple Instance Learning to Raman spectroscopy gut biopsy data.
+Achieved up to 84% F1-score for A-GVHD severity classification — demonstrating optical biopsy as a viable early-diagnosis signal.
 
 ---
 
-## 🛠 Backend & APIs
-![Node.js](https://img.shields.io/badge/Node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
-![Express.js](https://img.shields.io/badge/Express.js-404D59?style=for-the-badge)
-![REST API](https://img.shields.io/badge/REST-02569B?style=for-the-badge)
+## Experience
+
+**Software Engineer** · University of Oklahoma *(Aug 2024 – Present)* `Research Engineering · ML Infrastructure`
+- Architected a containerized GCP data pipeline (Cloud Run + Pub/Sub) processing 1.8 TB of research data — reducing end-to-end time from 12 hrs to 45 min
+- Reduced async task failure rate from ~35% to under 5% via Pydantic schema validation, structured logging, and exponential-backoff retry orchestration across a GCP Dataflow pipeline
+- Boosted feature extraction throughput 4x using Python multiprocessing and shm-based shared memory pools across 32-core GCP Compute Engine instances
+- Instrumented full pipeline observability (GCP Cloud Monitoring + structured JSON logging), cutting mean time to detect silent failures from hours to under 10 minutes
+
+**Software Engineer** · NeoSpark Solutions *(Jun 2022 – Jun 2024)* `Full Stack · Internal Tooling`
+- Shipped a self-serve internal reporting portal (Node.js / Express / React) replacing ad-hoc spreadsheet workflows across 5+ teams — reclaiming 8 hrs/week of analyst time
+- Reduced dashboard load time 25% (1.8s → 1.35s) by batching async API calls and eliminating redundant sequential fetches in the Express response layer
+- Refactored state management from prop-drilling to Redux/Context API — cutting wasted renders from 340ms to 95ms, Lighthouse score 61 → 84
+- Established JWT-based auth with RBAC across 3 permission tiers, enabling per-team audit trails for compliance reporting
+
+**Software Engineer** · Salesforce *(Jan 2022 – Jun 2022)* `Enterprise · CRM Platform`
+- Engineered 12 Apex triggers and Flow automations unifying cross-object logic across 3 Salesforce orgs — eliminating ~30% of support escalations
+- Built 4 Lightning Web Components with async RESTful bindings, cutting data retrieval latency by 40%
+- Hardened least-privilege access across 6 custom objects — zero unauthorized field-access incidents across a 200+ user compliance audit
 
 ---
 
-## 🗄 Databases & Caching
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-D82C20?style=for-the-badge&logo=redis&logoColor=white)
+## Featured Projects
+
+| Type | Project | Stack | Highlight |
+|---|---|---|---|
+| Systems | [DistriLimit](https://github.com/rahuljuluru92) | Redis, Lua, Python, Docker | Distributed rate limiter; atomic Lua scripts; <5ms overhead at 2,000 req/sec, 99.9% uptime under simulated DDoS |
+| Systems | [CollabSpace](https://github.com/rahuljuluru92) | Next.js, Socket.io, Redis Pub/Sub, PostgreSQL, JWT | Real-time collaborative editor with OT conflict resolution across 50+ concurrent sessions; sub-100ms cursor sync |
+| Full Stack | [Smart Expense Tracker](https://github.com/rahuljuluru92) | Next.js, FastAPI, GPT-4o, Redis, PostgreSQL, Docker | OCR-to-LLM receipt pipeline; 92% classification accuracy; 600 req/sec at P95 120ms |
+| AI / LLM | [Domain-Specific RAG Chatbot](https://github.com/rahuljuluru92) | LangChain, FAISS, OpenAI, FastAPI, GCP | Answer accuracy 62% → 86%; 35% latency reduction via embedding memoization |
+| AI / LLM | [Conversational Text-to-SQL](https://github.com/rahuljuluru92) | GPT-4, LangChain, FastAPI, PostgreSQL | Query execution rate 68% → 91%; hallucination rate cut 40% via schema-aware prompting |
+| ML | [Biomedical ML — Acute GVHD](https://github.com/rahuljuluru92) | Python, SVM, MIL, scikit-learn, PCA | MIL pipeline; 84% F1; +24% specificity over average-spectrum baselines |
 
 ---
 
-## ☁️ Cloud & DevOps
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-FF9900?style=for-the-badge&logo=amazon-aws&logoColor=white)
-![Google Cloud](https://img.shields.io/badge/GCP-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white)
-![CI/CD](https://img.shields.io/badge/CI%2FCD-000000?style=for-the-badge)
-# 📊 GitHub Stats:
-![](https://github-readme-stats.vercel.app/api?username=rahuljuluru92&theme=transparent&hide_border=false&include_all_commits=true&count_private=true)<br/>
-![](https://nirzak-streak-stats.vercel.app/?user=rahuljuluru92&theme=transparent&hide_border=false)<br/>
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=rahuljuluru92&theme=transparent&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
+## Technical Skills
 
-### ✍️ Random Dev Quote
-![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
+**Languages:** Python, TypeScript, JavaScript, Java, C/C++, SQL, Go
+
+**Frontend:** React.js, Next.js, Tailwind CSS
+
+**Backend:** Node.js, Express.js, FastAPI, Django/DRF, Flask
+
+**AI / LLM:** LangChain, RAG, OpenAI GPT-4, FAISS, Chroma, Prompt Engineering, Text-to-SQL, AI Agents, Hugging Face
+
+**ML / Data:** scikit-learn, Pandas, NumPy, XGBoost, Isolation Forest, SVM, Random Forest, Multiple Instance Learning, Streamlit
+
+**Infrastructure:** Docker, Kubernetes, GCP (Cloud Run, Pub/Sub, Vertex AI), AWS (Lambda, S3, SageMaker), CI/CD, GitHub Actions
+
+**Databases:** PostgreSQL, MongoDB, Redis, MySQL, Firebase, Pinecone
 
 ---
-[![](https://visitcount.itsvg.in/api?id=rahuljuluru92&icon=0&color=0)](https://visitcount.itsvg.in)
 
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+
+## Connect
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/rahul-juluru/)
+[![Email](https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white)](mailto:rahuljuluru92@gmail.com)
+[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=flat&logo=vercel&logoColor=white)](https://rahuljuluru.com)
+
