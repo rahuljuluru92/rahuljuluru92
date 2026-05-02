@@ -63,10 +63,10 @@ Achieved up to 84% F1-score for A-GVHD severity classification — demonstrating
 | Type | Project | Stack | Highlight |
 |---|---|---|---|
 | Systems | [DistriLimit](https://github.com/rahuljuluru92) | Redis, Lua, Python, Docker | Distributed rate limiter; atomic Lua scripts; <5ms overhead at 2,000 req/sec, 99.9% uptime under simulated DDoS |
-| Systems | [CollabSpace](https://github.com/rahuljuluru92) | Next.js, Socket.io, Redis Pub/Sub, PostgreSQL, JWT | Real-time collaborative editor with OT conflict resolution across 50+ concurrent sessions; sub-100ms cursor sync |
+| Systems | [CollabSpace](https://co-lab-roan.vercel.app/) | Next.js, Socket.io, Redis Pub/Sub, PostgreSQL, JWT | Real-time collaborative editor with OT conflict resolution across 50+ concurrent sessions; sub-100ms cursor sync |
 | Full Stack | [Smart Expense Tracker](https://github.com/rahuljuluru92) | Next.js, FastAPI, GPT-4o, Redis, PostgreSQL, Docker | OCR-to-LLM receipt pipeline; 92% classification accuracy; 600 req/sec at P95 120ms |
 | AI / LLM | [Domain-Specific RAG Chatbot](https://github.com/rahuljuluru92) | LangChain, FAISS, OpenAI, FastAPI, GCP | Answer accuracy 62% → 86%; 35% latency reduction via embedding memoization |
-| AI / LLM | [Conversational Text-to-SQL](https://github.com/rahuljuluru92) | GPT-4, LangChain, FastAPI, PostgreSQL | Query execution rate 68% → 91%; hallucination rate cut 40% via schema-aware prompting |
+| AI / LLM | [Conversational Text-to-SQL](https://text-to-sql-rahul.streamlit.app/) | GPT-4, LangChain, FastAPI, PostgreSQL | Query execution rate 68% → 91%; hallucination rate cut 40% via schema-aware prompting |
 | ML | [Biomedical ML — Acute GVHD](https://github.com/rahuljuluru92) | Python, SVM, MIL, scikit-learn, PCA | MIL pipeline; 84% F1; +24% specificity over average-spectrum baselines |
 
 ---
