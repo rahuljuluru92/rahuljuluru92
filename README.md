@@ -23,7 +23,7 @@ Currently exploring: agentic AI systems, distributed inference, and large-scale 
 
 - Distributed systems design — rate limiting, consensus, fault-tolerant pipelines
 - Agentic LLM workflows and multi-step reasoning systems
-- ML infrastructure for research-grade biomedical data at OU
+- ML infrastructure for research-grade Climate data at OU
 
 ---
 
